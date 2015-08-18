@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Ebookutils-dev] [GIT]ebookutils branch, master,	updated. ebookutils-0.5-6-g9485344
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/ebookutils-dev/2008-September/index.html" >
+   <LINK REL="made" HREF="mailto:ebookutils-dev%40lists.berlios.de?Subject=Re%3A%20%5BEbookutils-dev%5D%20%5BGIT%5Debookutils%20branch%2C%20master%2C%0A%09updated.%20ebookutils-0.5-6-g9485344&In-Reply-To=%3C200809152128.m8FLS1Tq006009%40sheep.berlios.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000006.html">
+   <LINK REL="Next"  HREF="000008.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Ebookutils-dev] [GIT]ebookutils branch, master,	updated. ebookutils-0.5-6-g9485344</H1>
+    <B>ashkulz at users.berlios.de</B> 
+    <A HREF="mailto:ebookutils-dev%40lists.berlios.de?Subject=Re%3A%20%5BEbookutils-dev%5D%20%5BGIT%5Debookutils%20branch%2C%20master%2C%0A%09updated.%20ebookutils-0.5-6-g9485344&In-Reply-To=%3C200809152128.m8FLS1Tq006009%40sheep.berlios.de%3E"
+       TITLE="[Ebookutils-dev] [GIT]ebookutils branch, master,	updated. ebookutils-0.5-6-g9485344">ashkulz at users.berlios.de
+       </A><BR>
+    <I>Mon Sep 15 23:28:01 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000006.html">[Ebookutils-dev] [GIT]ebookutils branch, master,	updated. ebookutils-0.5-2-g4764e8f
+</A></li>
+        <LI>Next message: <A HREF="000008.html">[Ebookutils-dev] [GIT]ebookutils annotated tag, ebookutils-0.6,	created. ebookutils-0.6
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#7">[ date ]</a>
+              <a href="thread.html#7">[ thread ]</a>
+              <a href="subject.html#7">[ subject ]</a>
+              <a href="author.html#7">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project &quot;ebookutils&quot;.
+
+The branch, master has been updated
+       via  9485344d347c662b27add330958beb072eb7541e (commit)
+       via  6dce0c75cf0cdf5c85fff0381f40e0f19dc3fc93 (commit)
+       via  aa8f8a4e0076c9546e9fc12f74c26d42fc36df54 (commit)
+       via  165191dd1f25a7718c125d6a0e43cfef77ff684a (commit)
+      from  4764e8fc7e872fb394c6cd0e80199b06c4016ae8 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 9485344d347c662b27add330958beb072eb7541e
+Author: Ashish Kulkarni &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/ebookutils-dev">kulkarni.ashish at gmail.com</A>&gt;
+Date:   Tue Sep 16 02:56:23 2008 +0530
+
+    released ebookutils-0.6
+    
+    Signed-off-by: Ashish Kulkarni &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/ebookutils-dev">kulkarni.ashish at gmail.com</A>&gt;
+
+commit 6dce0c75cf0cdf5c85fff0381f40e0f19dc3fc93
+Author: Ashish Kulkarni &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/ebookutils-dev">kulkarni.ashish at gmail.com</A>&gt;
+Date:   Tue Sep 16 02:21:04 2008 +0530
+
+    impserve: serve bookshelf filtered by detected ebook type
+
+commit aa8f8a4e0076c9546e9fc12f74c26d42fc36df54
+Author: Ashish Kulkarni &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/ebookutils-dev">kulkarni.ashish at gmail.com</A>&gt;
+Date:   Tue Sep 16 02:14:57 2008 +0530
+
+    impserve: move the configuration out of the handler class
+
+commit 165191dd1f25a7718c125d6a0e43cfef77ff684a
+Author: Ashish Kulkarni &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/ebookutils-dev">kulkarni.ashish at gmail.com</A>&gt;
+Date:   Tue Sep 16 02:06:47 2008 +0530
+
+    impserve: rewrite the IMP metadata extraction
+    
+    Also did reorganization of imports
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ VERSION                    |    2 +-
+ build_release              |    3 +-
+ impbuild/src/version.h     |    2 +-
+ src/ebookutils/__init__.py |    2 +-
+ src/ebookutils/impserve.py |  139 +++++++++++++++++++++++++++----------------
+ src/plugins/AdjustHtml.py  |    2 +-
+ src/setup.py               |    1 +
+ 7 files changed, 94 insertions(+), 57 deletions(-)
+
+
+hooks/post-receive
+-- 
+ebookutils
+<A HREF="http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils">http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils</A>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000006.html">[Ebookutils-dev] [GIT]ebookutils branch, master,	updated. ebookutils-0.5-2-g4764e8f
+</A></li>
+	<LI>Next message: <A HREF="000008.html">[Ebookutils-dev] [GIT]ebookutils annotated tag, ebookutils-0.6,	created. ebookutils-0.6
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#7">[ date ]</a>
+              <a href="thread.html#7">[ thread ]</a>
+              <a href="subject.html#7">[ subject ]</a>
+              <a href="author.html#7">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/ebookutils-dev">More information about the ebookutils-dev
+mailing list</a><br>
+</body></html>

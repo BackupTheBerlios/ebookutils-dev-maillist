@@ -1,0 +1,1034 @@
+From ashkulz at users.berlios.de  Tue Sep  9 19:06:30 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Tue, 9 Sep 2008 19:06:30 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils is a collection of utilities which
+	are useful for working with ebooks. branch, master,
+	updated. ebookutils-0.4-7-g6a425fc
+Message-ID: <200809091706.m89H6Uq2012579@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils is a collection of utilities which are useful for working with ebooks.".
+
+The branch, master has been updated
+       via  6a425fc351df30132cae0cc3cfa002a75dac5750 (commit)
+      from  2374dfbb11b7d2c7f141c015faac9ebe5ba2570a (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 6a425fc351df30132cae0cc3cfa002a75dac5750
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Tue Sep 9 22:33:13 2008 +0530
+
+    renamed impmake to impbuild
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ .gitignore                                       |    2 +-
+ README                                           |    2 +-
+ impbuild/Makefile                                |   18 ++++++++++++++++++
+ {impmake => impbuild}/README                     |    0
+ {impmake => impbuild}/src/disphelper.c           |    0
+ {impmake => impbuild}/src/disphelper.h           |    0
+ impmake/src/impmake.c => impbuild/src/impbuild.c |    4 ++--
+ impmake/Makefile                                 |   16 ----------------
+ update_version.py                                |    2 +-
+ 9 files changed, 23 insertions(+), 21 deletions(-)
+ create mode 100644 impbuild/Makefile
+ rename {impmake => impbuild}/README (100%)
+ rename {impmake => impbuild}/src/disphelper.c (100%)
+ rename {impmake => impbuild}/src/disphelper.h (100%)
+ rename impmake/src/impmake.c => impbuild/src/impbuild.c (98%)
+ delete mode 100644 impmake/Makefile
+
+
+hooks/post-receive
+-- 
+ebookutils is a collection of utilities which are useful for working with ebooks.
+
+
+From ashkulz at users.berlios.de  Tue Sep  9 19:54:49 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Tue, 9 Sep 2008 19:54:49 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils is a collection of utilities which
+	are useful for working with ebooks. branch, master,
+	updated. ebookutils-0.4-8-gab86022
+Message-ID: <200809091754.m89HsniV029783@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils is a collection of utilities which are useful for working with ebooks.".
+
+The branch, master has been updated
+       via  ab86022d3dc828d4dfe219687f163862d0bc3f9f (commit)
+      from  6a425fc351df30132cae0cc3cfa002a75dac5750 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit ab86022d3dc828d4dfe219687f163862d0bc3f9f
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Tue Sep 9 23:24:30 2008 +0530
+
+    impbuild: updated README for building on linux
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ impbuild/README |    7 ++++---
+ 1 files changed, 4 insertions(+), 3 deletions(-)
+
+
+hooks/post-receive
+-- 
+ebookutils is a collection of utilities which are useful for working with ebooks.
+
+
+From ashkulz at users.berlios.de  Tue Sep  9 20:04:53 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Tue, 9 Sep 2008 20:04:53 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils branch, master,
+	updated. ebookutils-0.4-9-g68fb19d
+Message-ID: <200809091804.m89I4rTn030727@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The branch, master has been updated
+       via  68fb19d702365bb72052b4ec4c2d536702bc6876 (commit)
+      from  ab86022d3dc828d4dfe219687f163862d0bc3f9f (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 68fb19d702365bb72052b4ec4c2d536702bc6876
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Tue Sep 9 23:34:42 2008 +0530
+
+    update version to 0.4.3
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ VERSION |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+
+hooks/post-receive
+-- 
+ebookutils
+
+
+From ashkulz at users.berlios.de  Tue Sep  9 23:56:09 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Tue, 9 Sep 2008 23:56:09 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils branch, master,
+	updated. ebookutils-0.4-11-g6204a90
+Message-ID: <200809092156.m89Lu9WX028034@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The branch, master has been updated
+       via  6204a90d64efbe2e3ba2cba8a55790bcd9b21ac5 (commit)
+       via  b88478523b283843dd86c6f00d9e0a8369bc582e (commit)
+      from  68fb19d702365bb72052b4ec4c2d536702bc6876 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 6204a90d64efbe2e3ba2cba8a55790bcd9b21ac5
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Wed Sep 10 03:14:05 2008 +0530
+
+    bump version to 0.5
+
+commit b88478523b283843dd86c6f00d9e0a8369bc582e
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Wed Sep 10 03:10:52 2008 +0530
+
+    create a script to automatically create releases
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ .gitignore                    |    3 +-
+ VERSION                       |    2 +-
+ build_release                 |  109 +++++++++++++++++++++++++++++++++++++++++
+ impbuild/Makefile             |    5 +--
+ impbuild/src/version.h        |    1 +
+ impserve/impserve/__init__.py |    5 +-
+ impserve/impserve/version.py  |    1 +
+ impserve/setup_win32.py       |    2 +-
+ update_version.py             |   10 ----
+ 9 files changed, 117 insertions(+), 21 deletions(-)
+ create mode 100755 build_release
+ create mode 100644 impbuild/src/version.h
+ create mode 100644 impserve/impserve/version.py
+ delete mode 100755 update_version.py
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Wed Sep 10 00:44:29 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Wed, 10 Sep 2008 00:44:29 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils annotated tag, ebookutils-0.5,
+	created. ebookutils-0.5
+Message-ID: <200809092244.m89MiT0h015986@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The annotated tag, ebookutils-0.5 has been created
+        at  21654d81721e1985ab859e2b1d985c8b2ab0e464 (tag)
+   tagging  6204a90d64efbe2e3ba2cba8a55790bcd9b21ac5 (commit)
+  replaces  ebookutils-0.4
+ tagged by  Ashish Kulkarni
+        on  Wed Sep 10 04:13:08 2008 +0530
+
+- Log -----------------------------------------------------------------
+released ebookutils-0.5
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQBIxvwX2Lzg4xKgf3sRApyUAJ43AZdS1hguZPNb/aULW8Ej4O9dUgCghW/N
+z033uHY4ppnG7X10oNL/5mo=
+=LRRk
+-----END PGP SIGNATURE-----
+
+Ashish Kulkarni (11):
+      impserve: fix off-by-one error which caused only 99 books to show
+      bump version to 0.4.1
+      impserve: add py2exe support
+      handle version numbers properly on a fresh checkout
+      impserve: print message when a mime.types file is loaded
+      impserve: forward cookies if sent by the ebook
+      renamed impmake to impbuild
+      impbuild: updated README for building on linux
+      update version to 0.4.3
+      create a script to automatically create releases
+      bump version to 0.5
+
+-----------------------------------------------------------------------
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Sun Sep 14 14:52:40 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Sun, 14 Sep 2008 14:52:40 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils branch, master,
+	updated. ebookutils-0.5-1-gc4d57c5
+Message-ID: <200809141252.m8ECqeRf029124@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The branch, master has been updated
+       via  c4d57c5a5af268e77f249a93fbf9fe812913c77a (commit)
+      from  6204a90d64efbe2e3ba2cba8a55790bcd9b21ac5 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit c4d57c5a5af268e77f249a93fbf9fe812913c77a
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Sun Sep 14 18:21:34 2008 +0530
+
+    refactoring of the directory layout and build system
+    
+    Signed-off-by: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ .gitignore                                         |    6 +-
+ VERSION                                            |    2 +-
+ build_release                                      |   52 +++++++++++-----
+ impbuild/src/version.h                             |    2 +-
+ impserve/impserve/version.py                       |    1 -
+ impserve/run.py                                    |   47 ---------------
+ impserve/setup_win32.py                            |   24 --------
+ {impserve => src}/content/README                   |    0
+ src/ebookutils/__init__.py                         |    1 +
+ .../__init__.py => src/ebookutils/impserve.py      |   62 ++++++++++++++------
+ src/impserve.py                                    |    5 ++
+ {impserve => src}/plugins/AdjustHtml.py            |    2 +-
+ {impserve => src}/plugins/AdjustQueryString.py     |    2 +-
+ {impserve => src/plugins}/BeautifulSoup.py         |    0
+ src/setup.py                                       |   41 +++++++++++++
+ src/shelf/README                                   |    1 +
+ 16 files changed, 134 insertions(+), 114 deletions(-)
+ delete mode 100644 impserve/impserve/version.py
+ delete mode 100755 impserve/run.py
+ delete mode 100644 impserve/setup_win32.py
+ rename {impserve => src}/content/README (100%)
+ create mode 100644 src/ebookutils/__init__.py
+ rename impserve/impserve/__init__.py => src/ebookutils/impserve.py (90%)
+ create mode 100755 src/impserve.py
+ rename {impserve => src}/plugins/AdjustHtml.py (94%)
+ rename {impserve => src}/plugins/AdjustQueryString.py (91%)
+ rename {impserve => src/plugins}/BeautifulSoup.py (100%)
+ create mode 100644 src/setup.py
+ create mode 100644 src/shelf/README
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Sun Sep 14 15:17:03 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Sun, 14 Sep 2008 15:17:03 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils branch, master,
+	updated. ebookutils-0.5-2-g4764e8f
+Message-ID: <200809141317.m8EDH3j4003542@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The branch, master has been updated
+       via  4764e8fc7e872fb394c6cd0e80199b06c4016ae8 (commit)
+      from  c4d57c5a5af268e77f249a93fbf9fe812913c77a (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 4764e8fc7e872fb394c6cd0e80199b06c4016ae8
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Sun Sep 14 18:46:22 2008 +0530
+
+    configure setuptools
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ README        |    8 +++-----
+ build_release |    2 +-
+ src/setup.py  |   16 ++++++++++++++--
+ 3 files changed, 18 insertions(+), 8 deletions(-)
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Mon Sep 15 23:28:01 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Mon, 15 Sep 2008 23:28:01 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils branch, master,
+	updated. ebookutils-0.5-6-g9485344
+Message-ID: <200809152128.m8FLS1Tq006009@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The branch, master has been updated
+       via  9485344d347c662b27add330958beb072eb7541e (commit)
+       via  6dce0c75cf0cdf5c85fff0381f40e0f19dc3fc93 (commit)
+       via  aa8f8a4e0076c9546e9fc12f74c26d42fc36df54 (commit)
+       via  165191dd1f25a7718c125d6a0e43cfef77ff684a (commit)
+      from  4764e8fc7e872fb394c6cd0e80199b06c4016ae8 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 9485344d347c662b27add330958beb072eb7541e
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Tue Sep 16 02:56:23 2008 +0530
+
+    released ebookutils-0.6
+    
+    Signed-off-by: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+
+commit 6dce0c75cf0cdf5c85fff0381f40e0f19dc3fc93
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Tue Sep 16 02:21:04 2008 +0530
+
+    impserve: serve bookshelf filtered by detected ebook type
+
+commit aa8f8a4e0076c9546e9fc12f74c26d42fc36df54
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Tue Sep 16 02:14:57 2008 +0530
+
+    impserve: move the configuration out of the handler class
+
+commit 165191dd1f25a7718c125d6a0e43cfef77ff684a
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Tue Sep 16 02:06:47 2008 +0530
+
+    impserve: rewrite the IMP metadata extraction
+    
+    Also did reorganization of imports
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ VERSION                    |    2 +-
+ build_release              |    3 +-
+ impbuild/src/version.h     |    2 +-
+ src/ebookutils/__init__.py |    2 +-
+ src/ebookutils/impserve.py |  139 +++++++++++++++++++++++++++----------------
+ src/plugins/AdjustHtml.py  |    2 +-
+ src/setup.py               |    1 +
+ 7 files changed, 94 insertions(+), 57 deletions(-)
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Mon Sep 15 23:28:18 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Mon, 15 Sep 2008 23:28:18 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils annotated tag, ebookutils-0.6,
+	created. ebookutils-0.6
+Message-ID: <200809152128.m8FLSIWb006063@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The annotated tag, ebookutils-0.6 has been created
+        at  37ff95af38a7f6f1e1dbe6ad297d808282a56082 (tag)
+   tagging  9485344d347c662b27add330958beb072eb7541e (commit)
+  replaces  ebookutils-0.5
+ tagged by  Ashish Kulkarni
+        on  Tue Sep 16 02:56:46 2008 +0530
+
+- Log -----------------------------------------------------------------
+released ebookutils-0.6
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQBIztMp2Lzg4xKgf3sRAg57AJ9AKlU/iWCs+CUeMRk/wngovxgdpwCgvWAX
+dD4Syl/1kj/3IcDIgil4NPk=
+=j5IW
+-----END PGP SIGNATURE-----
+
+Ashish Kulkarni (6):
+      refactoring of the directory layout and build system
+      configure setuptools
+      impserve: rewrite the IMP metadata extraction
+      impserve: move the configuration out of the handler class
+      impserve: serve bookshelf filtered by detected ebook type
+      released ebookutils-0.6
+
+-----------------------------------------------------------------------
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Tue Sep 16 19:01:16 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Tue, 16 Sep 2008 19:01:16 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils branch, master,
+	updated. ebookutils-0.6-1-g75040ae
+Message-ID: <200809161701.m8GH1GE9025526@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The branch, master has been updated
+       via  75040ae4fc1c20b18a9875b5474255643f11ec69 (commit)
+      from  9485344d347c662b27add330958beb072eb7541e (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 75040ae4fc1c20b18a9875b5474255643f11ec69
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Tue Sep 16 22:30:30 2008 +0530
+
+    remove download URL from PyPI metadata
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ src/setup.py |    1 -
+ 1 files changed, 0 insertions(+), 1 deletions(-)
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Tue Sep 16 19:59:08 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Tue, 16 Sep 2008 19:59:08 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils branch, master,
+	updated. ebookutils-0.6-2-gf7bee6d
+Message-ID: <200809161759.m8GHx874017658@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The branch, master has been updated
+       via  f7bee6d6bedce32b4c35e7379a70553c8bef5d7b (commit)
+      from  75040ae4fc1c20b18a9875b5474255643f11ec69 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit f7bee6d6bedce32b4c35e7379a70553c8bef5d7b
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Tue Sep 16 23:28:35 2008 +0530
+
+    impserve: convert HTTP 301 to 302 which the ebook understands
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ src/ebookutils/impserve.py |    2 ++
+ 1 files changed, 2 insertions(+), 0 deletions(-)
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Wed Sep 17 18:27:15 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Wed, 17 Sep 2008 18:27:15 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils branch, master,
+	updated. ebookutils-0.6-4-g6e4219d
+Message-ID: <200809171627.m8HGRFIe011967@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The branch, master has been updated
+       via  6e4219dd43c3706eee3fa9983429b46e040fe635 (commit)
+       via  b61bc3284f469c2a76ccccb4dd52720b98f5db25 (commit)
+      from  f7bee6d6bedce32b4c35e7379a70553c8bef5d7b (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 6e4219dd43c3706eee3fa9983429b46e040fe635
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Wed Sep 17 21:56:22 2008 +0530
+
+    impserve: force Content-Length header to the actual data available
+    
+    This caused problems with servers that returned an incorrect
+    Content-Length with the ebook reporting that the document could
+    not be opened.
+
+commit b61bc3284f469c2a76ccccb4dd52720b98f5db25
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Wed Sep 17 21:53:14 2008 +0530
+
+    impserve: add a debug option which can be useful for debugging
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ src/ebookutils/impserve.py |   27 ++++++++++++++++++++-------
+ 1 files changed, 20 insertions(+), 7 deletions(-)
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Fri Sep 19 15:26:51 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Fri, 19 Sep 2008 15:26:51 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils branch, master,
+	updated. ebookutils-0.6-5-gf6cad45
+Message-ID: <200809191326.m8JDQpmh023887@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The branch, master has been updated
+       via  f6cad4527d5b005aff7334ce313b4507bf7b5dcd (commit)
+      from  6e4219dd43c3706eee3fa9983429b46e040fe635 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit f6cad4527d5b005aff7334ce313b4507bf7b5dcd
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Fri Sep 19 18:53:24 2008 +0530
+
+    impserve: document the debug option
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ src/ebookutils/impserve.py |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Fri Sep 19 19:57:44 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Fri, 19 Sep 2008 19:57:44 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils branch, master,
+	updated. ebookutils-0.6-6-g917afa9
+Message-ID: <200809191757.m8JHvil8008429@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The branch, master has been updated
+       via  917afa93ee7eda0be023b3a28036ae8d117491a2 (commit)
+      from  f6cad4527d5b005aff7334ce313b4507bf7b5dcd (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 917afa93ee7eda0be023b3a28036ae8d117491a2
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Fri Sep 19 23:26:51 2008 +0530
+
+    [AdjustHtml] remove all <SCRIPT> tags
+    
+    This caused the ebook to choke up and not show anything after that.
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ src/plugins/AdjustHtml.py |    4 ++++
+ 1 files changed, 4 insertions(+), 0 deletions(-)
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Sat Sep 20 01:01:38 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Sat, 20 Sep 2008 01:01:38 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils branch, master,
+	updated. ebookutils-0.6-7-g9ddd7d0
+Message-ID: <200809192301.m8JN1c8a018752@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The branch, master has been updated
+       via  9ddd7d023a65878286f410d440f03eaff98e93bf (commit)
+      from  917afa93ee7eda0be023b3a28036ae8d117491a2 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 9ddd7d023a65878286f410d440f03eaff98e93bf
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Sat Sep 20 04:30:48 2008 +0530
+
+    impserve: all output to be logged to a file
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ src/ebookutils/impserve.py |   20 +++++++++++++-------
+ 1 files changed, 13 insertions(+), 7 deletions(-)
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Sat Sep 20 09:57:46 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Sat, 20 Sep 2008 09:57:46 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils branch, master,
+	updated. ebookutils-0.6-8-g51994f7
+Message-ID: <200809200757.m8K7vkqj015873@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The branch, master has been updated
+       via  51994f7d4f99b6fba834193bd73d1337e6b28525 (commit)
+      from  9ddd7d023a65878286f410d440f03eaff98e93bf (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 51994f7d4f99b6fba834193bd73d1337e6b28525
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Sat Sep 20 13:25:04 2008 +0530
+
+    impserve: add support for running as a windows service
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ .gitignore                 |    1 +
+ VERSION                    |    2 +-
+ build_release              |    9 +++++++--
+ impbuild/src/version.h     |    2 +-
+ src/ebookutils/__init__.py |    2 +-
+ win32/instsrv.exe          |  Bin 0 -> 37888 bytes
+ win32/srvany.exe           |  Bin 0 -> 13312 bytes
+ win32/windows-service.bat  |   23 +++++++++++++++++++++++
+ 8 files changed, 34 insertions(+), 5 deletions(-)
+ create mode 100644 win32/instsrv.exe
+ create mode 100644 win32/srvany.exe
+ create mode 100644 win32/windows-service.bat
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Sat Sep 20 10:33:09 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Sat, 20 Sep 2008 10:33:09 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils branch, master,
+	updated. ebookutils-0.6-9-ga803ab5
+Message-ID: <200809200833.m8K8X9AQ018557@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The branch, master has been updated
+       via  a803ab51dc064394551e3c8612f81a8385151d38 (commit)
+      from  51994f7d4f99b6fba834193bd73d1337e6b28525 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit a803ab51dc064394551e3c8612f81a8385151d38
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Sat Sep 20 14:02:19 2008 +0530
+
+    impserve: log all exceptions
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ src/ebookutils/impserve.py |   13 ++++++++-----
+ 1 files changed, 8 insertions(+), 5 deletions(-)
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Sun Sep 21 12:37:24 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Sun, 21 Sep 2008 12:37:24 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils branch, master,
+	updated. ebookutils-0.6-10-gc3e6d46
+Message-ID: <200809211037.m8LAbOgX011385@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The branch, master has been updated
+       via  c3e6d468a8e783b57ac1f2d18da9d970147a6e64 (commit)
+      from  a803ab51dc064394551e3c8612f81a8385151d38 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit c3e6d468a8e783b57ac1f2d18da9d970147a6e64
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Sun Sep 21 16:04:54 2008 +0530
+
+    impserve: fixes for running the windows service from any location
+    
+    Earlier, installing in a path with spaces in it would cause it to fail.
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ win32/windows-service.bat |   13 +++++++------
+ 1 files changed, 7 insertions(+), 6 deletions(-)
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Sun Sep 21 12:38:15 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Sun, 21 Sep 2008 12:38:15 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils annotated tag, ebookutils-0.7,
+	created. ebookutils-0.7
+Message-ID: <200809211038.m8LAcFUH013411@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The annotated tag, ebookutils-0.7 has been created
+        at  36b0d77a141fdd9e3629d5d4c70464a6b5bfaf18 (tag)
+   tagging  c3e6d468a8e783b57ac1f2d18da9d970147a6e64 (commit)
+  replaces  ebookutils-0.6
+ tagged by  Ashish Kulkarni
+        on  Sun Sep 21 16:06:16 2008 +0530
+
+- Log -----------------------------------------------------------------
+released ebookutils-0.7
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQBI1iOt2Lzg4xKgf3sRAn0tAJ4tsPQYr8qXEDV6YtltWK1zh4KHkQCeNsAc
+JlD8c1FZTzTZdRkQL223mPs=
+=rp8I
+-----END PGP SIGNATURE-----
+
+Ashish Kulkarni (10):
+      remove download URL from PyPI metadata
+      impserve: convert HTTP 301 to 302 which the ebook understands
+      impserve: add a debug option which can be useful for debugging
+      impserve: force Content-Length header to the actual data available
+      impserve: document the debug option
+      [AdjustHtml] remove all <SCRIPT> tags
+      impserve: all output to be logged to a file
+      impserve: add support for running as a windows service
+      impserve: log all exceptions
+      impserve: fixes for running the windows service from any location
+
+-----------------------------------------------------------------------
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Tue Sep 23 05:48:39 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Tue, 23 Sep 2008 05:48:39 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils branch, master,
+	updated. ebookutils-0.7-1-g2ecab05
+Message-ID: <200809230348.m8N3mdpw020573@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The branch, master has been updated
+       via  2ecab059f3ea797b25af270c984ddf19dc84bf68 (commit)
+      from  c3e6d468a8e783b57ac1f2d18da9d970147a6e64 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 2ecab059f3ea797b25af270c984ddf19dc84bf68
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Tue Sep 23 09:17:53 2008 +0530
+
+    impserve: fix crash when invalid .IMP encountered in bookshelf
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ src/ebookutils/impserve.py |    8 ++++++--
+ 1 files changed, 6 insertions(+), 2 deletions(-)
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Tue Sep 23 20:31:47 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Tue, 23 Sep 2008 20:31:47 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils branch, master,
+	updated. ebookutils-0.7-4-g5c2fbe3
+Message-ID: <200809231831.m8NIVlsD001718@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The branch, master has been updated
+       via  5c2fbe3cc8f15876854027f61e4e0353a46c3d63 (commit)
+       via  fd36987e2dab1df9a8975d1cbd74f3fa3eb5494b (commit)
+       via  b60ad615c39b49cf299766b0967990390843f772 (commit)
+      from  2ecab059f3ea797b25af270c984ddf19dc84bf68 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit 5c2fbe3cc8f15876854027f61e4e0353a46c3d63
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Tue Sep 23 23:57:12 2008 +0530
+
+    impserve: bump version to 0.8
+
+commit fd36987e2dab1df9a8975d1cbd74f3fa3eb5494b
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Tue Sep 23 23:33:02 2008 +0530
+
+    impserve: add some sample ebooks
+
+commit b60ad615c39b49cf299766b0967990390843f772
+Author: Ashish Kulkarni <kulkarni.ashish at gmail.com>
+Date:   Tue Sep 23 23:05:46 2008 +0530
+
+    impserve: add new content homepage
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ VERSION                    |    2 +-
+ impbuild/src/version.h     |    2 +-
+ src/content/README         |    1 -
+ src/content/index.html     |   18 ++++++++++++++++++
+ src/ebookutils/__init__.py |    2 +-
+ src/shelf/README           |    1 -
+ src/shelf/rebtest1150.imp  |  Bin 0 -> 176145 bytes
+ src/shelf/rebtest1200.imp  |  Bin 0 -> 169456 bytes
+ 8 files changed, 21 insertions(+), 5 deletions(-)
+ delete mode 100644 src/content/README
+ create mode 100644 src/content/index.html
+ delete mode 100644 src/shelf/README
+ create mode 100644 src/shelf/rebtest1150.imp
+ create mode 100644 src/shelf/rebtest1200.imp
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+
+From ashkulz at users.berlios.de  Tue Sep 23 20:32:05 2008
+From: ashkulz at users.berlios.de (ashkulz at users.berlios.de)
+Date: Tue, 23 Sep 2008 20:32:05 +0200
+Subject: [Ebookutils-dev] [GIT]ebookutils annotated tag, ebookutils-0.8,
+	created. ebookutils-0.8
+Message-ID: <200809231832.m8NIW5Ge001780@sheep.berlios.de>
+
+This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project "ebookutils".
+
+The annotated tag, ebookutils-0.8 has been created
+        at  efac57a720a92565c1c5e2d6029a87a8d7eb06d0 (tag)
+   tagging  5c2fbe3cc8f15876854027f61e4e0353a46c3d63 (commit)
+  replaces  ebookutils-0.7
+ tagged by  Ashish Kulkarni
+        on  Wed Sep 24 00:00:32 2008 +0530
+
+- Log -----------------------------------------------------------------
+released ebookutils-0.8
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.6 (GNU/Linux)
+
+iD8DBQBI2TXa2Lzg4xKgf3sRAieaAKCrZeARLzWDV89cE62qhXyMEmXsOACgl96v
+M5cYNVIn6sX2ZkNhXG6WW+w=
+=jZwJ
+-----END PGP SIGNATURE-----
+
+Ashish Kulkarni (4):
+      impserve: fix crash when invalid .IMP encountered in bookshelf
+      impserve: add new content homepage
+      impserve: add some sample ebooks
+      impserve: bump version to 0.8
+
+-----------------------------------------------------------------------
+
+
+hooks/post-receive
+-- 
+ebookutils
+http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils
+
+

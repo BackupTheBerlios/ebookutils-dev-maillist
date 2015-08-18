@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Ebookutils-dev] [GIT]ebookutils branch, master,	updated. ebookutils-0.5-1-gc4d57c5
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/ebookutils-dev/2008-September/index.html" >
+   <LINK REL="made" HREF="mailto:ebookutils-dev%40lists.berlios.de?Subject=Re%3A%20%5BEbookutils-dev%5D%20%5BGIT%5Debookutils%20branch%2C%20master%2C%0A%09updated.%20ebookutils-0.5-1-gc4d57c5&In-Reply-To=%3C200809141252.m8ECqeRf029124%40sheep.berlios.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000004.html">
+   <LINK REL="Next"  HREF="000006.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Ebookutils-dev] [GIT]ebookutils branch, master,	updated. ebookutils-0.5-1-gc4d57c5</H1>
+    <B>ashkulz at users.berlios.de</B> 
+    <A HREF="mailto:ebookutils-dev%40lists.berlios.de?Subject=Re%3A%20%5BEbookutils-dev%5D%20%5BGIT%5Debookutils%20branch%2C%20master%2C%0A%09updated.%20ebookutils-0.5-1-gc4d57c5&In-Reply-To=%3C200809141252.m8ECqeRf029124%40sheep.berlios.de%3E"
+       TITLE="[Ebookutils-dev] [GIT]ebookutils branch, master,	updated. ebookutils-0.5-1-gc4d57c5">ashkulz at users.berlios.de
+       </A><BR>
+    <I>Sun Sep 14 14:52:40 CEST 2008</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000004.html">[Ebookutils-dev] [GIT]ebookutils annotated tag, ebookutils-0.5,	created. ebookutils-0.5
+</A></li>
+        <LI>Next message: <A HREF="000006.html">[Ebookutils-dev] [GIT]ebookutils branch, master,	updated. ebookutils-0.5-2-g4764e8f
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#5">[ date ]</a>
+              <a href="thread.html#5">[ thread ]</a>
+              <a href="subject.html#5">[ subject ]</a>
+              <a href="author.html#5">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>This is an automated email from the git hooks/post-receive script. It was
+generated because a ref change was pushed to the repository containing
+the project &quot;ebookutils&quot;.
+
+The branch, master has been updated
+       via  c4d57c5a5af268e77f249a93fbf9fe812913c77a (commit)
+      from  6204a90d64efbe2e3ba2cba8a55790bcd9b21ac5 (commit)
+
+Those revisions listed above that are new to this repository have
+not appeared on any other notification email; so we list those
+revisions in full, below.
+
+- Log -----------------------------------------------------------------
+commit c4d57c5a5af268e77f249a93fbf9fe812913c77a
+Author: Ashish Kulkarni &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/ebookutils-dev">kulkarni.ashish at gmail.com</A>&gt;
+Date:   Sun Sep 14 18:21:34 2008 +0530
+
+    refactoring of the directory layout and build system
+    
+    Signed-off-by: Ashish Kulkarni &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/ebookutils-dev">kulkarni.ashish at gmail.com</A>&gt;
+
+-----------------------------------------------------------------------
+
+Summary of changes:
+ .gitignore                                         |    6 +-
+ VERSION                                            |    2 +-
+ build_release                                      |   52 +++++++++++-----
+ impbuild/src/version.h                             |    2 +-
+ impserve/impserve/version.py                       |    1 -
+ impserve/run.py                                    |   47 ---------------
+ impserve/setup_win32.py                            |   24 --------
+ {impserve =&gt; src}/content/README                   |    0
+ src/ebookutils/__init__.py                         |    1 +
+ .../__init__.py =&gt; src/ebookutils/impserve.py      |   62 ++++++++++++++------
+ src/impserve.py                                    |    5 ++
+ {impserve =&gt; src}/plugins/AdjustHtml.py            |    2 +-
+ {impserve =&gt; src}/plugins/AdjustQueryString.py     |    2 +-
+ {impserve =&gt; src/plugins}/BeautifulSoup.py         |    0
+ src/setup.py                                       |   41 +++++++++++++
+ src/shelf/README                                   |    1 +
+ 16 files changed, 134 insertions(+), 114 deletions(-)
+ delete mode 100644 impserve/impserve/version.py
+ delete mode 100755 impserve/run.py
+ delete mode 100644 impserve/setup_win32.py
+ rename {impserve =&gt; src}/content/README (100%)
+ create mode 100644 src/ebookutils/__init__.py
+ rename impserve/impserve/__init__.py =&gt; src/ebookutils/impserve.py (90%)
+ create mode 100755 src/impserve.py
+ rename {impserve =&gt; src}/plugins/AdjustHtml.py (94%)
+ rename {impserve =&gt; src}/plugins/AdjustQueryString.py (91%)
+ rename {impserve =&gt; src/plugins}/BeautifulSoup.py (100%)
+ create mode 100644 src/setup.py
+ create mode 100644 src/shelf/README
+
+
+hooks/post-receive
+-- 
+ebookutils
+<A HREF="http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils">http://git.berlios.de/cgi-bin/gitweb.cgi?p=ebookutils</A>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000004.html">[Ebookutils-dev] [GIT]ebookutils annotated tag, ebookutils-0.5,	created. ebookutils-0.5
+</A></li>
+	<LI>Next message: <A HREF="000006.html">[Ebookutils-dev] [GIT]ebookutils branch, master,	updated. ebookutils-0.5-2-g4764e8f
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#5">[ date ]</a>
+              <a href="thread.html#5">[ thread ]</a>
+              <a href="subject.html#5">[ subject ]</a>
+              <a href="author.html#5">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/ebookutils-dev">More information about the ebookutils-dev
+mailing list</a><br>
+</body></html>
